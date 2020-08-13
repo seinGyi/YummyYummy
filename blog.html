@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Yummy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+
+
+
+    <!-- SCRIPT
+    ============================================================-->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+  <!--HEADER ROW-->
+  <div id="header-row">
+    <div class="container">
+      <div class="row">
+              <!--LOGO-->
+              <div class="span3"><a class="brand" href="#">
+                <img style="width:70px; height:70px;" src="img/myIcons/chef2.png"/>
+                <img  style="float:right; height:70px;" src="img/myIcons/logo.png"/>
+              </a>
+              </div>
+              <!-- /LOGO -->
+
+            <!-- MAIN NAVIGATION -->
+              <div class="span9">
+                <div class="navbar  pull-right">
+                  <div class="navbar-inner">
+                    <a data-target=".navbar-responsive-collapse" data-toggle="collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+                    <div class="nav-collapse collapse navbar-responsive-collapse">
+                    <ul class="nav">
+                        <li class="active"><a href="index.html">Home</a></li>
+
+                        <!-- <li class="dropdown">
+                          <a href="about.html" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                  <li><a href="about.html">Company</a></li>
+                                  <li><a href="about.html">History</a></li>
+                                  <li><a href="about.html">Team</a></li>
+                            </ul>
+
+                        </li> -->
+
+                        <li><a href="service.html">Categories</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">About</a></li>
+
+                    </ul>
+                  </div>
+
+                  </div>
+                </div>
+              </div>
+            <!-- MAIN NAVIGATION -->
+      </div>
+    </div>
+  </div>
+  <!-- /HEADER ROW -->
+
+
+
+
+<div class="container">
+	  <!--PAGE TITLE-->
+
+	<div class="row">
+		<div class="span12">
+		<div class="page-header">
+				<h2>
+				Blog
+			</h2>
+		</div>
+		</div>
+	</div>
+
+  <!-- /. PAGE TITLE-->
+
+
+
+	<div class="row">
+
+
+		<div class="span9">
+			<!--Blog Post-->
+			<div class="blog-post">
+				<h2>
+          <span id="span88" target="tits">
+            Enjoy your foods
+          </span>
+        </h2>
+
+				<!-- <div class="postmetadata">
+					<ul>
+							<li>
+								<i class="icon-user"></i> <a href="#">Author Name</a>
+							</li>
+
+							<li>
+								 <i class="icon-calendar"></i>September 20th, 2013
+							</li>
+
+							<li>
+								<i class="icon-comment"></i> <a href="#">100 Comments</a>
+							</li>
+							<li>
+								<i class="icon-tags"></i> <a href="#">Themes</a>, <a href="#">Template</a>
+							</li>
+					</ul>
+				</div> -->
+
+          <span id="span99" width="870px" height="100%" target="vidos">
+            <img src=".\img\cooker.jpg" alt="unavailable photo">
+          </span>
+          <span id="span77">
+          </span>
+          <span id="span66">
+          </span>
+
+					<!-- <video src="yammy/breakfast/breakfast-tofu.mp4"  poster="" style="width:870px;" controls>
+            Breakfast
+          </video> -->
+					<p> </p>
+			</div>
+
+
+			<!--===============-->
+
+
+
+
+			<!--/.Blog Post-->
+
+			<!--Pagination-->
+			<div class="pagination">
+
+			</div>
+
+		<!--/.Pagination-->
+		</div>
+
+
+
+		<div class="span3">
+			<div class="side-bar">
+
+				<h3>Categories</h3>
+				<ul class="nav nav-list">
+
+          <button type="button" name="button" onclick="functionbf()">Breakfast</button><br><p><p>
+          <span id="bf"></span>
+          <button type="button" name="button" onclick="functionlu()">Lunch</button><br><p>
+          <span id="lu"></span>
+          <button type="button" name="button" onclick="functiondi()">Dinner</button><br><p>
+          <span id="di"></span>
+          <button type="button" name="button" onclick="functionjnd()">Juices and Drinks</button><br><p>
+          <span id="jnd"></span>
+          <button type="button" name="button" onclick="functionck()">Cakes and Creams</button><br><p>
+          <span id="ck"></span>
+          <button type="button" name="button" onclick="functionotr()">Others</button>
+          <span id="otr"></span>
+
+				</ul>
+
+			</div>
+
+
+			<!-- <div class="side-bar">
+				<h3>Tags</h3>
+
+					<a href="#">cras</a>,
+					<a href="#">sit</a>,
+					<a href="#">amet</a>,
+					<a href="#">nibh</a>,
+					<a href="#">libero</a>,
+					<a href="#">gravida</a>,
+					<a href="#">nulla</a>
+			</div>
+
+
+			<div class="side-bar">
+				<h3>Recent Post</h3>
+
+				<ul class="recent-post">
+					<li><a href=""><strong>The standard chunk of Lorem Ipsum used since </strong></a>
+						<small><i class="icon-user"></i> <a href="#">Author Name</a>,  <i class="icon-calendar"></i>Jul 20th, 2013</small>
+					</li>
+
+					<li><a href=""><strong>The standard chunk of Lorem Ipsum used since </strong></a>
+						<small><i class="icon-user"></i> <a href="#">Author Name</a>,  <i class="icon-calendar"></i>Jul 20th, 2013</small>
+					</li>
+
+					<li><a href=""><strong>The standard chunk of Lorem Ipsum used since </strong></a>
+						<small><i class="icon-user"></i> <a href="#">Author Name</a>,  <i class="icon-calendar"></i>Jul 20th, 2013</small>
+					</li>
+				</ul>
+			</div> -->
+
+
+		</div>
+
+
+		<!--==================-->
+	</div>
+</div>
+
+
+<script type="text/javascript">
+  function functionbf(){
+    document.getElementById('bf').innerHTML = '<p>'+'<ol>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo11(), functionbtn11()">Breakfast Ball Peppers</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo12(), functionbtn12()">Breakfast Bombs</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo13(), functionbtn13()">Breakfast Tofu</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo14(), functionbtn14()">Fast Breakfast In A Mug 4-Ways</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo15(), functionbtn15()">Fluffy Chocolate Lava Pancakes</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo16(), functionbtn16()">Grilled Pizza</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo17(), functionbtn17()">Healthy Breakfast Meal Prep</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo18(), functionbtn18()">Microwave Prep Breakfast Sandwiches</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo19(), functionbtn19()">Portable Breakfast</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo191(), functionbtn191()">Time-Saving Sheet Pan BreakfastSandwiches</a></li>'+'<p>'+
+                                              '</ol>';
+    document.getElementById('lu').innerHTML = '';
+    document.getElementById('di').innerHTML = '';
+    document.getElementById('jnd').innerHTML = '';
+    document.getElementById('ck').innerHTML = '';
+    document.getElementById('otr').innerHTML = '';
+  }
+  function functionlu(){
+    document.getElementById('bf').innerHTML = '';
+    document.getElementById('lu').innerHTML = '<p>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo21()">BBQ Pork Party Tower</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo22()">Crunchy Salt and Pepper Shrimp</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo23()">Super Fluffy Omelet</a></li>'+'<p>';
+    document.getElementById('di').innerHTML = '';
+    document.getElementById('jnd').innerHTML = '';
+    document.getElementById('ck').innerHTML = '';
+    document.getElementById('otr').innerHTML = '';
+  }
+  function functiondi(){
+    document.getElementById('bf').innerHTML = '';
+    document.getElementById('lu').innerHTML = '';
+    document.getElementById('di').innerHTML = '<p>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo31()">Summer Vegetable Pesto Ribbon Salad</a></li>'+'<p>';
+    document.getElementById('jnd').innerHTML = '';
+    document.getElementById('ck').innerHTML = '';
+    document.getElementById('otr').innerHTML = '';
+  }
+  function functionjnd(){
+    document.getElementById('bf').innerHTML = '';
+    document.getElementById('lu').innerHTML ='';
+    document.getElementById('di').innerHTML = '';
+    document.getElementById('jnd').innerHTML ='<p>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo41()">4 Fruits Packed Refresher</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo42()">4 Make Ahead Veggie Packed Fruit Smoothies</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo43()">Delicious Asian Drinks</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo44()">Freezer-Pre Fruit Smoothies</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo45()">Frozen Lemonade 4 ways</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo46()">Grilled Lemonade that will take your BBQ</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo47()">Silken Smoothies 4 ways</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo48()">Slushies 4 Ways</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo49()">Spiked Milkshake 4 Ways</a></li>'+'<p>';
+    document.getElementById('ck').innerHTML = '';
+    document.getElementById('otr').innerHTML = '';
+  }
+  function functionck(){
+    document.getElementById('bf').innerHTML = '';
+    document.getElementById('lu').innerHTML ='';
+    document.getElementById('di').innerHTML = '';
+    document.getElementById('jnd').innerHTML = '';
+    document.getElementById('ck').innerHTML = '<p>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo51()">Ice Cream Bread</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo52()">Ice Cream Donut Holes</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo53()">Ice Cream Sandwich Cake</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo54()">Rain Drop Cake 2 ways</a></li>'+'<p>';
+    document.getElementById('otr').innerHTML = '';
+  }
+  function functionotr(){
+    document.getElementById('bf').innerHTML = '';
+    document.getElementById('lu').innerHTML ='';
+    document.getElementById('di').innerHTML = '';
+    document.getElementById('jnd').innerHTML = '';
+    document.getElementById('ck').innerHTML = '';
+    document.getElementById('otr').innerHTML ='<p>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo61()">Avocado Strawberry Ice Cream</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo62()">Churro Ice Cream Bowl</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo63()">Creative Ways to Serve Fruit</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo64()">Polenta Fries</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo65()">Refreshing Veggie Packed Juices</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo66()">Save Time In the morning with these freezer Prep Breakfast Muffins</a></li>'+
+                                              '<li><a target="span99_vidos" onclick="functionvdo67()">Stuffed Superbowl Cupcakes</a></li>'+'<p>';
+  }
+
+  //for each breakfast video
+  function functionvdo11(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Breakfast-Bell-Peppers.mp4" style="width:870px;" autoplay controls>', functionvdo1111();}
+  function functionvdo1111(){document.getElementById('span88').innerHTML='Breakfast Ball Peppers';}
+  function functionbtn11(){document.getElementById('span77').innerHTML='<button type="button" id="desc11" onclick="functiondesc11()">Description</button> <span id="span6611"></span>'}
+
+  function functionvdo12(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Breakfast-Bombs.mp4" style="width:870px;" autoplay controls>', functionvdo1212();}
+  function functionvdo1212(){document.getElementById('span88').innerHTML='Breakfast Bombs';}
+  function functionbtn12(){document.getElementById('span77').innerHTML='<button type="button" id="desc12" onclick="functiondesc12()">Description</button> <span id="span6612"></span>'}
+
+  function functionvdo13(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/breakfast-tofu.mp4" style="width:870px;" autoplay controls>', functionvdo1313();}
+  function functionvdo1313(){document.getElementById('span88').innerHTML='Breakfast Tofu';}
+  function functionbtn13(){document.getElementById('span77').innerHTML='<button type="button" id="desc13" onclick="functiondesc13()">Description</button> <span id="span6613"></span>'}
+
+  function functionvdo14(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Fast Breakfast In A Mug-4-Ways.mp4" style="width:870px;" autoplay controls>', functionvdo1414();}
+  function functionvdo1414(){document.getElementById('span88').innerHTML='Fast Breakfast In A Mug 4-Ways';}
+  function functionbtn14(){document.getElementById('span77').innerHTML='<button type="button" id="desc14" onclick="functiondesc14()">Description</button> <span id="span6614"></span>'}
+
+  function functionvdo15(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Fluffy Chocolate Lava Pancakes.mp4" style="width:870px;" autoplay controls>', functionvdo1515();}
+  function functionvdo1515(){document.getElementById('span88').innerHTML='Fluffy Chocolate Lava Pancakes';}
+  function functionbtn15(){document.getElementById('span77').innerHTML='<button type="button" id="desc15" onclick="functiondesc15()">Description</button> <span id="span6615"></span>'}
+
+  function functionvdo16(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Grilled Pizza.mp4" style="width:870px;" autoplay controls>', functionvdo1616();}
+  function functionvdo1616(){document.getElementById('span88').innerHTML='Grilled Pizza';}
+  function functionbtn16(){document.getElementById('span77').innerHTML='<button type="button" id="desc16" onclick="functiondesc16()">Description</button> <span id="span6616"></span>'}
+
+  function functionvdo17(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Healthy Breakfast Meal Prep.mp4" style="width:870px;" autoplay controls>', functionvdo1717();}
+  function functionvdo1717(){document.getElementById('span88').innerHTML='Healthy Breakfast Meal Prep';}
+  function functionbtn17(){document.getElementById('span77').innerHTML='<button type="button" id="desc17" onclick="functiondesc17()">Description</button> <span id="span6617"></span>'}
+
+  function functionvdo18(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Microwave Prep Breakfast Sandwiches.mp4" style="width:870px;" autoplay controls>', functionvdo1818();}
+  function functionvdo1818(){document.getElementById('span88').innerHTML='Microwave Prep Breakfast Sandwiches';}
+  function functionbtn18(){document.getElementById('span77').innerHTML='<button type="button" id="desc18" onclick="functiondesc18()">Description</button> <span id="span6618"></span>'}
+
+  function functionvdo19(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Portable Breakfasts.mp4" style="width:870px;" autoplay controls>', functionvdo1919();}
+  function functionvdo1919(){document.getElementById('span88').innerHTML='Portable Breakfast';}
+  function functionbtn19(){document.getElementById('span77').innerHTML='<button type="button" id="desc19" onclick="functiondesc19()">Description</button> <span id="span6619"></span>'}
+
+  function functionvdo191(){document.getElementById('span99').innerHTML='<video src="yammy/breakfast/Time-Saving Sheet Pan BreakfastSandwiches.mp4" style="width:870px;" autoplay controls>', functionvdo191191();}
+  function functionvdo191191(){document.getElementById('span88').innerHTML='Time-Saving Sheet Pan BreakfastSandwiches';}
+  function functionbtn191(){document.getElementById('span77').innerHTML='<button type="button" id="desc191" onclick="functiondesc191()">Description</button> <span id="span66191"></span>'}
+
+
+  //for each lunch video
+  function functionvdo21(){document.getElementById('span99').innerHTML='<video src="yammy/lunch/BBQ_Pork_Party_Tower_HD.mp4" style="width:870px;" autoplay controls>', functionvdo2121();}
+  function functionvdo2121(){document.getElementById('span88').innerHTML='BBQ Pork Party Tower';}
+  function functionvdo22(){document.getElementById('span99').innerHTML='<video src="yammy/lunch/Crunchy_Salt_and_Pepper_Shrimp_HD.mp4" style="width:870px;" autoplay controls>', functionvdo2222();}
+  function functionvdo2222(){document.getElementById('span88').innerHTML='Crunchy Salt and Pepper Shrimp';}
+  function functionvdo23(){document.getElementById('span99').innerHTML='<video src="yammy/lunch/Super_Fluffy_Omelet_HD.mp4" style="width:870px;" autoplay controls>', functionvdo2323();}
+  function functionvdo2323(){document.getElementById('span88').innerHTML='Super Fluffy Omelet';}
+  //for dinner video
+  function functionvdo31(){document.getElementById('span99').innerHTML='<video src="yammy/dinner/Summer_Vegetable_Pesto_Ribbon_Salad_HD.mp4" style="width:870px;" autoplay controls>', functionvdo313131();}
+  function functionvdo313131(){document.getElementById('span88').innerHTML='Summer Vegetable Pesto Ribbon Salad';}
+  //for juices and Drinks
+  function functionvdo41(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/4_Fruit-Packed_Refreshers_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4141();}
+  function functionvdo4141(){document.getElementById('span88').innerHTML='4 Fruits Packed Refresher';}
+  function functionvdo42(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/4_Make-Ahead_Veggie-Packed_Fruit_Smoothies_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4242();}
+  function functionvdo4242(){document.getElementById('span88').innerHTML='4 Make Ahead Veggie Packed Fruit Smoothies';}
+  function functionvdo43(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/Delicious_Asian_Drinks_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4343();}
+  function functionvdo4343(){document.getElementById('span88').innerHTML='Delicious Asian Drinks';}
+  function functionvdo44(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/Freezer-Prep_Fruit_Smoothies_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4444();}
+  function functionvdo4444(){document.getElementById('span88').innerHTML='Freezer-Pre Fruit Smoothies';}
+  function functionvdo45(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/Frozen_Lemonade_4_Ways_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4545();}
+  function functionvdo4545(){document.getElementById('span88').innerHTML='Frozen Lemonade 4 ways';}
+  function functionvdo46(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/Grilled_Lemonade_That_Will_Take_Your_BBQ.mp4" style="width:870px;" autoplay controls>', functionvdo4646();}
+  function functionvdo4646(){document.getElementById('span88').innerHTML='Grilled Lemonade that will take your BBQ';}
+  function functionvdo47(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/Silken_Smoothies_4_Ways_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4747();}
+  function functionvdo4747(){document.getElementById('span88').innerHTML='Silken Smoothies 4 ways';}
+  function functionvdo48(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/Slushies_4_Ways_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4848();}
+  function functionvdo4848(){document.getElementById('span88').innerHTML='Slushies 4 Ways';}
+  function functionvdo49(){document.getElementById('span99').innerHTML='<video src="yammy/drinks/Spiked_Milkshake_4_Ways_HD.mp4" style="width:870px;" autoplay controls>', functionvdo4949();}
+  function functionvdo4949(){document.getElementById('span88').innerHTML='Spiked Milkshake 4 Ways';}
+  //for Cakes
+  function functionvdo51(){document.getElementById('span99').innerHTML='<video src="yammy/others/Ice_Cream_Bread_HD.mp4" style="width:870px;" autoplay controls>', functionvdo5151();}
+  function functionvdo5151(){document.getElementById('span88').innerHTML='Ice Cream Bread';}
+  function functionvdo52(){document.getElementById('span99').innerHTML='<video src="yammy/others/Ice_Cream_Donut_Holes_HD.mp4" style="width:870px;" autoplay controls>', functionvdo5252();}
+  function functionvdo5252(){document.getElementById('span88').innerHTML='Ice Cream Donut Holes';}
+  function functionvdo53(){document.getElementById('span99').innerHTML='<video src="yammy/others/Ice_Cream_Sandwich_Cake_HD.mp4" style="width:870px;" autoplay controls>', functionvdo5353();}
+  function functionvdo5353(){document.getElementById('span88').innerHTML='Ice Cream Sandwich Cake';}
+  function functionvdo54(){document.getElementById('span99').innerHTML='<video src="yammy/others/Rain_Drop_Cake_2_Ways_HD.mp4" style="width:870px;" autoplay controls>', functionvdo5454();}
+  function functionvdo5454(){document.getElementById('span88').innerHTML='Rain Drop Cake 2 ways';}
+
+  //for Others
+  function functionvdo61(){document.getElementById('span99').innerHTML='<video src="yammy/others/Avocado_Strawberry_Ice_Cream_HD.mp4" style="width:870px;" autoplay controls>', functionvdo6161();}
+  function functionvdo6161(){document.getElementById('span88').innerHTML='Avocado Strawberry Ice Cream';}
+  function functionvdo62(){document.getElementById('span99').innerHTML='<video src="yammy/others/Churro_Ice_Cream_Bowl_HD.mp4" style="width:870px;" autoplay controls>', functionvdo6262();}
+  function functionvdo6262(){document.getElementById('span88').innerHTML='Churro Ice Cream Bowl';}
+  function functionvdo63(){document.getElementById('span99').innerHTML='<video src="yammy/others/Creative_Ways_To_Serve_Fruit_HD.mp4" style="width:870px;" autoplay controls>', functionvdo6363();}
+  function functionvdo6363(){document.getElementById('span88').innerHTML='Creative Ways to Serve Fruit';}
+  function functionvdo64(){document.getElementById('span99').innerHTML='<video src="yammy/others/Polenta_Fries_HD.mp4" style="width:870px;" autoplay controls>', functionvdo6464();}
+  function functionvdo6464(){document.getElementById('span88').innerHTML='Polenta Fries';}
+  function functionvdo65(){document.getElementById('span99').innerHTML='<video src="yammy/others/Freshing_Veggie-Packed_Juices_HD.mp4" style="width:870px;" autoplay controls>', functionvdo6565();}
+  function functionvdo6565(){document.getElementById('span88').innerHTML='Refreshing Veggie Packed Juices';}
+  function functionvdo66(){document.getElementById('span99').innerHTML='<video src="yammy/others/Save_Time_In_The_Morning_With_These_Freezer_HD.mp4" style="width:870px;" autoplay controls>', functionvdo6666();}
+  function functionvdo6666(){document.getElementById('span88').innerHTML='Save Time In the morning with these freezer Prep Breakfast Muffins';}
+  function functionvdo67(){document.getElementById('span99').innerHTML='<video src="yammy/others/Stuffed_Superbowl_Cupcakes_HD.mp4" style="width:870px;" autoplay controls>', functionvdo6767();}
+  function functionvdo6767(){document.getElementById('span88').innerHTML='Stuffed Superbowl Cupcakes';}
+
+  //for Each Breakfast Description
+  function functiondesc11(){
+    document.getElementById('span6611').innerHTML='<table><tr><th>Ingredients</th></tr> <tr><td>Salt</td><td>to taste</td></tr> <tr><td>Pepper</td><td>to taste</td></tr> <tr><td>Bake at</td><td>350 &deg F / 180 &deg C for 15-20 min</td></tr> <tr><td>Mozzarella</td><td></td></tr> <tr><td>Chievs</td><td></td></tr> <tr><td>Eggs</td><td></td></tr> <tr><td>Salt</td><td>to taste</td></tr> <tr><td>Peeper</td><td>to taste</td></tr> <tr><td>Bacon</td><td>to taste</td></tr> <tr><td>Cheddar</td><td>to taste</td></tr> <tr><td>chives</td><td>to taste</td></tr> <tr><td>Bake at</td><td>350 &deg F / 180 &deg C for 15-20 min</td></tr></table>';
+  }
+
+  function functiondesc12(){
+    document.getElementById('span6612').innerHTML='<table><tr><th>Ingredients</th></tr> <tr><td>Bacon</td><td>4 strips</td></tr> <tr><td>Garlic</td><td>2 cloves, minced</td></tr> <tr><td>Eggs</td><td>8, beaten</td> <td></td></tr> <tr><td>Scallians</td><td>1/4 cup, chapped</td></tr> <tr><td>Salt</td><td>to taste</td></tr> <tr><td>Pepper</td><td>to taste</td></tr> <tr><td>Potatoes</td><td>6, shredded</td></tr> <tr><td>Egg</td><td>1</td></tr> <tr><td>Flour</td><td>3/4 cup/td></tr> <tr><td>Cheddar cheese</td><td>1/2 cup</td></tr> <tr><td>Salt</td><td>to taste</td></tr> <tr><td>Pepper</td><td>to taste</td></tr><tr><td>chedder chese</td><td>1/2 cup, divided</td></tr><tr><td>Chill</td><td>20 minutes</td></tr><tr><td>Egg wash</td><td></td></tr><tr><td>Bake</td><td>375 &deg F ( 190 &deg C ) </td><td>35-45 minutes</td></tr></table>';
+  }
+
+  function functiondesc13(){
+    document.getElementById('span6613').innerHTML='<table><tr><th>Ingredients</th></tr> <tr><td>Extra firm tofu</td><td>140 z</td></tr> <tr><td>Press</td><td>20 minutes</td></tr> <tr><td>Salt</td><td>to taste</td> <td></td></tr> <tr><td>Pepper</td><td>to taste</td></tr> <tr><td>Flour</td><td>1/2 cup</td></tr> <tr><td>cornstarch</td><td>1 tbsp</td></tr> <tr><td>milk of choice</td><td>1/2 cup</td></tr> <tr><td>apple cider vinegar</td><td>1 tsp</td></tr> <tr><td>Dijon mustard</td><td>1 tsp</td></tr> <tr><td>Bread crumbs</td><td>1/2 cup</td></tr> <tr><td>Salt $ pepper</td><td>1 tsp + 1/2 tsp</td></tr> <tr><td>Garlic powder</td><td>1 tsp</td></tr><tr><td>Paprika</td><td>1 tsp</td></tr><tr><td>Onion powder</td><td>1 tsp</td></tr><tr><td>nutritional yeast</td><td>1 tbsp</td></tr><tr><td>Cumin</td><td>1 tsp</td><td></td></tr><tr><td>Cayenne</td><td>1/4 tsp</td></tr><tr><td>Olive oil</td><td></td></tr><tr><td>Bake</td><td>425 &deg F ( 220 &deg C )</td><td>30 - 35 minutes</td></tr></table>';
+  }
+  function functiondesc14(){
+    document.getElementById('span6614').innerHTML='<table><tr><th>Ingredients</th></tr> <tr><td>Extra firm tofu</td><td>140 z</td></tr> <tr><td>Press</td><td>20 minutes</td></tr> <tr><td>Salt</td><td>to taste</td> <td></td></tr> <tr><td>Pepper</td><td>to taste</td></tr> <tr><td>Flour</td><td>1/2 cup</td></tr> <tr><td>cornstarch</td><td>1 tbsp</td></tr> <tr><td>milk of choice</td><td>1/2 cup</td></tr> <tr><td>apple cider vinegar</td><td>1 tsp</td></tr> <tr><td>Dijon mustard</td><td>1 tsp</td></tr> <tr><td>Bread crumbs</td><td>1/2 cup</td></tr> <tr><td>Salt $ pepper</td><td>1 tsp + 1/2 tsp</td></tr> <tr><td>Garlic powder</td><td>1 tsp</td></tr><tr><td>Paprika</td><td>1 tsp</td></tr><tr><td>Onion powder</td><td>1 tsp</td></tr><tr><td>nutritional yeast</td><td>1 tbsp</td></tr><tr><td>Cumin</td><td>1 tsp</td><td></td></tr><tr><td>Cayenne</td><td>1/4 tsp</td></tr><tr><td>Olive oil</td><td></td></tr><tr><td>Bake</td><td>425 &deg F ( 220 &deg C )</td><td>30 - 35 minutes</td></tr></table>';
+  }
+</script>
+
+
+<!--Footerdrinks
+==========================-->
+
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="span12">Copyright &copy 2016 Yummy | All Rights Reserved  <br>
+        <small>Aliquam tincidunt mauris eu risus.</small>
+        </div>
+      </div>
+    </div>
+</footer>
+
+<!--/.Footer-->
+
+</body>
+</html>
